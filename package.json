@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "dev": "pnpm build --watch"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
